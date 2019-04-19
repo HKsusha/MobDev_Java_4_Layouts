@@ -8,9 +8,8 @@
         android:id="@+id/button1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:text="@string/button1"
-        android:layout_marginLeft="0dp">
+        android:text="@string/button1">
+
     </Button>
 
     <Button
@@ -20,9 +19,8 @@
         android:layout_below="@id/button1"
         android:layout_toRightOf="@id/button1"
         android:layout_toEndOf="@id/button1"
-        android:layout_marginStart="10dp"
-        android:text="@string/button2"
-        android:layout_marginLeft="10dp">
+        android:text="@string/button2">
+
     </Button>
 
     <Button
@@ -32,9 +30,8 @@
         android:layout_below="@id/button2"
         android:layout_toEndOf="@id/button2"
         android:layout_toRightOf="@id/button2"
-        android:text="@string/button3"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp">
+        android:text="@string/button3">
+
     </Button>
 
 </RelativeLayout>
